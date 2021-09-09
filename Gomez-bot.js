@@ -4,9 +4,12 @@ const prefix = '.'
 
 async function iniciar () { 
         const client = new WAConnection()
+        
 client.logger.level = 'warn'
+        
    client.on('qr', () => {
    })
+        
 fs.existsSync('./Gomez-2003.json') && client.loadAuthInfo('.Gomez-2003.js
 client.on('connecting', () => {
 console.log('Conectando')

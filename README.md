@@ -6,3 +6,4 @@
 - cd Gomez-bot2003
 - bash install.sh
 - npm start
+- 

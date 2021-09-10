@@ -83,7 +83,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 }
         
@@ -106,7 +106,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 
@@ -116,7 +116,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 

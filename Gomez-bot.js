@@ -110,7 +110,7 @@ message: {
 }})
 break
 
-case 'Nombre del comando':
+case 'comando':
 client.sendMessage(from, "Lo que el bot deberia de responder", text, {quoted: { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})

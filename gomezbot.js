@@ -12,7 +12,7 @@ async function iniciar () {
         })
 
 
-        fs.existsSync('./jhesid2003.json') && client.loadAuthInfo('.jhesid2003.json')
+        fs.existsSync('./Thechoutee.json') && client.loadAuthInfo('.Thechoutee.json')
 
 
         client.on('connecting', () => {
@@ -24,8 +24,8 @@ async function iniciar () {
         console.log('Listo se contecto correctamente comienza a usar el bot')
         })
         await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./jhesid2003.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
-        }
+        fs.writeFileSync('./Thechoutee.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        
 
 client.on('chat-update', async (choute) => {
 try {	  
@@ -91,44 +91,7 @@ if(body == ('hola')) {
 client.sendMessage(from, 'como estas!', MessageType.text, {quoted: choute})
 }
 
-if(body == ('Soy nueva')) {
-client.sendMessage(from, 'Nombre - Edad - Pais - Foto', MessageType.text, {quoted: choute})
-}
 
-if(body == ('Me quiero morir')) {
-client.sendMessage(from, 'Suicidate, igual no le importas a nadie', MessageType.text, {quoted: choute})
-}
-
-if(body == ('Buenos dias')) {
-client.sendMessage(from, 'Solo Dias Porque Bueno Estoy Yo', MessageType.text, {quoted: choute})
-}
-
-if(body == ('Baby Bechoso Quien Es Tu Creador')) {
-client.sendMessage(from, 'Mi Creador es el hdp de Leo o TheChoute, lo mismo pero mas barrato', MessageType.text, {quoted: choute})
-}
-
-
-if(body == ('amel ciega')) {
-client.sendMessage(from, 'confirmo amel esta ciega y no se baña', MessageType.text, {quoted: choute})
-}
-
-
-if(body == ('Si soy')) {
-client.sendMessage(from, 'No eres, mientes como todas las mujeres', MessageType.text, {quoted: choute})
-}
-
-if(body == ('bot hdp')) {
-client.sendMessage(from, 'No soy hijo de puta, ya que mi madre no es puta.', MessageType.text, {quoted: choute})
-}
-
-
-if(body == ('Holissss')) {
-client.sendMessage(from, 'Holaaaaaaaaaaaaaaaaa!', MessageType.text, {quoted: choute})
-}
-
-if(body == ('Busco novia')) {
-client.sendMessage(from, 'entra a busconovia.com y encontraras novia', MessageType.text, {quoted: choute})
-}
 	
 switch (command) {
 
@@ -138,42 +101,23 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 
-case 'descripcion':
-client.sendMessage(from, `*_BIENVENID@S_*
-乃㠪⼕廾龱丂龱
-*TRIO FUNDADOR*
-👵🏻 _Ashley_👵🏻
-🎓 _Leo_🎓
-🐷 _Amel_🐷
-*_PRESENTACION OBLIGATORIA CON;_*
-➪ _Nombre_
-➪ _Edad_ 
-➪ _Lugar_ 
-➪ _Foto_
-*QUIEN NO SE QUIERA PRESENTAR SERA ELIMINADO SIN EXCEPCIONES*
-*TOTALMENTE PROHIBIDO*
-➪ _Porno / CP_
-➪ _Gore_
-➪ _Necrofilia_
-➪ _Zoofilia_ 
-➪ _Spam y enlaces_
-➪ _Personas con el nombre "David"_𝘺 " 𝘐𝘴𝘢𝘣𝘦𝘭𝘭𝘢"
-*ADMINES DEL GRUPO*
-➪Ashley    ➪Leo   ➪Chui
-➪Amel  ➪ Isa✨🛐
-*GRUPO DICTATORIAL Y DOBLE MORAL*`, text, {quoted: { key: {
+
+
+case 'comandoo':
+client.sendMessage(from, `Respuesta`, text, {quoted: { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 
+	
 case 'menu':
 client.sendMessage(from, ` COMANDOS DEL BOT
 🫂Comando Para Grupos🫂 
@@ -191,7 +135,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 

@@ -83,7 +83,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 }
         
@@ -91,9 +91,43 @@ if(body == ('hola')) {
 client.sendMessage(from, 'como estas!', MessageType.text, {quoted: choute})
 }
 
+if(body == ('Soy nueva')) {
+client.sendMessage(from, 'Nombre - Edad - Pais - Foto', MessageType.text, {quoted: choute})
+}
 
-if(body == ('mensaje de la persona')) {
-client.sendMessage(from, 'lo que el bot contestara', MessageType.text, {quoted: choute})
+if(body == ('Me quiero morir')) {
+client.sendMessage(from, 'Suicidate, igual no le importas a nadie', MessageType.text, {quoted: choute})
+}
+
+if(body == ('Buenos dias')) {
+client.sendMessage(from, 'Solo Dias Porque Bueno Estoy Yo', MessageType.text, {quoted: choute})
+}
+
+if(body == ('Baby Bechoso Quien Es Tu Creador')) {
+client.sendMessage(from, 'Mi Creador es el hdp de Leo o TheChoute, lo mismo pero mas barrato', MessageType.text, {quoted: choute})
+}
+
+
+if(body == ('amel ciega')) {
+client.sendMessage(from, 'confirmo amel esta ciega y no se baña', MessageType.text, {quoted: choute})
+}
+
+
+if(body == ('Si soy')) {
+client.sendMessage(from, 'No eres, mientes como todas las mujeres', MessageType.text, {quoted: choute})
+}
+
+if(body == ('bot hdp')) {
+client.sendMessage(from, 'No soy hijo de puta, ya que mi madre no es puta.', MessageType.text, {quoted: choute})
+}
+
+
+if(body == ('Holissss')) {
+client.sendMessage(from, 'Holaaaaaaaaaaaaaaaaa!', MessageType.text, {quoted: choute})
+}
+
+if(body == ('Busco novia')) {
+client.sendMessage(from, 'entra a busconovia.com y encontraras novia', MessageType.text, {quoted: choute})
 }
 	
 switch (command) {
@@ -104,20 +138,62 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 
-case 'comando':
-client.sendMessage(from, "Lo que el bot deberia de responder", text, {quoted: { key: {
+case 'descripcion':
+client.sendMessage(from, `*_BIENVENID@S_*
+乃㠪⼕廾龱丂龱
+*TRIO FUNDADOR*
+👵🏻 _Ashley_👵🏻
+🎓 _Leo_🎓
+🐷 _Amel_🐷
+*_PRESENTACION OBLIGATORIA CON;_*
+➪ _Nombre_
+➪ _Edad_ 
+➪ _Lugar_ 
+➪ _Foto_
+*QUIEN NO SE QUIERA PRESENTAR SERA ELIMINADO SIN EXCEPCIONES*
+*TOTALMENTE PROHIBIDO*
+➪ _Porno / CP_
+➪ _Gore_
+➪ _Necrofilia_
+➪ _Zoofilia_ 
+➪ _Spam y enlaces_
+➪ _Personas con el nombre "David"_𝘺 " 𝘐𝘴𝘢𝘣𝘦𝘭𝘭𝘢"
+*ADMINES DEL GRUPO*
+➪Ashley    ➪Leo   ➪Chui
+➪Amel  ➪ Isa✨🛐
+*GRUPO DICTATORIAL Y DOBLE MORAL*`, text, {quoted: { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
 break
 
+case 'menu':
+client.sendMessage(from, ` COMANDOS DEL BOT
+🫂Comando Para Grupos🫂 
+➫ Dar Admin; padmin
+➫ Quitar admin; qadmin
+➫ Eliminar; -O, | kick | eliminar
+➫ Unir al grupo; +O | unir"
+*Comandos Para Miembros*
+➫ Stiker; stiker
+➫ Stiker con fondo lgtb; slgtb
+➫ Descripcion del grupo; descripcion
+➫ Foto de perfil; perfil
+➫ Nombre del grupo; namegroup`, text, {quoted: { key: {
+fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+"documentMessage": { "title": "Thechoute🎓", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
+}})
+break
 
 		
 case 'foto':

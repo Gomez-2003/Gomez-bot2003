@@ -4,7 +4,7 @@
   "description": "",
   "main": "gomezbot",
   "scripts": {
-  "start": "gomezbot"
+  "start": "node gomezbot"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"

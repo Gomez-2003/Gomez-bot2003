@@ -142,7 +142,7 @@ break
 		
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
-client.sendMessage(from, imagen, MessageType.image, {quoted: choute, caption: `*Aqui tienes la foto del trio fundado*`})
+client.sendMessage(from, imagen, MessageType.image, {quoted: choute, caption: `*Foto enviada con exito :D*`})
 break
                 
 case 'video':

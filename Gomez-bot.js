@@ -95,8 +95,6 @@ client.sendMessage(from, 'como estas!', MessageType.text, {quoted: choute})
 if(body == ('mensaje de la persona')) {
 client.sendMessage(from, 'lo que el bot contestara', MessageType.text, {quoted: choute})
 }
-        
-
 	
 switch (command) {
 

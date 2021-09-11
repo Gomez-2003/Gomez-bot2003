@@ -135,9 +135,6 @@ if(body == ('2003')) {client.sendMessage(from, `Era un hombre tan vago, que cuan
 if(body == ('2003 A')) {client.sendMessage(from, `Yo tengo cinco hijos. – ¿Cómo se llaman? – Uno Cipriano, otro Luciano, otro Aniano, otro Mariano….- Oye, ¿y todos acaban en ano? – No, el quinto es Próculo.`, MessageType.text, {quoted: gomez})
 }
 
-if(body == ('jajajaja)) {client.sendMessage(from, 'quieres otro pon 2003 A!', MessageType.text, {quoted: gomez})
-}
-
 if(body == ('Eres el mejor bot')) {client.sendMessage(from, 'gracias bbsauri@', MessageType.text, {quoted: gomez})
 }
 

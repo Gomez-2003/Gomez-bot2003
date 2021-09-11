@@ -12,7 +12,7 @@ async function iniciar () {
         })
 
 
-        fs.existsSync('./Thechoutee.json') && client.loadAuthInfo('.Thechoutee.json')
+        fs.existsSync('./GomezBot.json') && client.loadAuthInfo('.GomezBot.json')
 
 
         client.on('connecting', () => {
@@ -24,7 +24,7 @@ async function iniciar () {
         console.log('Listo se contecto correctamente comienza a usar el bot')
         })
         await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./Thechoutee.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./GomezBot.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         
 
 client.on('chat-update', async (choute) => {

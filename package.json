@@ -2,9 +2,9 @@
   "name": "Gomez2003",
   "version": "0.0.0",
   "description": "",
-  "main": "Gomez-bot.js",
+  "main": "gomezbot",
   "scripts": {
-  "start": "Gomez-bot.js"
+  "start": "gomezbot"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"

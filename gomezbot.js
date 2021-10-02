@@ -89,9 +89,9 @@ message: {
         
 if(body == ('info')) {client.sendMessage(from, `┏━━❉ INFO ❉━━
 ┣👾Nombre : GÓMEZ BOT👾
-┣👾 Numero : +994  40 021 1464
+┣👾 Numero : +57 3135621474
 ┣👾 Name: Gómez
-┣👾nivel 2003
+┣👾 Edad 2003
 ┗━━━━━━━━━━━━`, MessageType.text, {quoted: gomez})
 }
 
@@ -210,7 +210,6 @@ client.sendMessage(from, ` COMANDOS DEL BOT
 ➫ Unir al grupo; +O | unir"
 *Comandos Para Miembros*
 ➫ Stiker; stiker
-➫ Stiker con fondo lgtb; slgtb
 ➫ Descripcion del grupo; descripcion
 ➫ Foto de perfil; perfil
 ➫ Nombre del grupo; namegroup`, text, {quoted: { key: {

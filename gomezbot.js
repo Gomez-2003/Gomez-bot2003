@@ -88,9 +88,11 @@ message: {
 }
         
 if(body == ('info')) {client.sendMessage(from, `┏━━❉ INFO ❉━━
-┣👾Nombre : GÓMEZ BOT👾
+┣👾 Nombre : GÓMEZ BOT👾
 ┣👾 Numero : +57 3135621474
-┣👾 Name: Gómez
+┣👾 CEL CREADOR: +57 3228267985
+┣👾 NOMBRE DE CREADOR
+JHESID GOMEZ 
 ┣👾 Edad 2003
 ┗━━━━━━━━━━━━`, MessageType.text, {quoted: gomez})
 }
@@ -98,10 +100,19 @@ if(body == ('info')) {client.sendMessage(from, `┏━━❉ INFO ❉━━
 if(body == ('hola')) {
 client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})
 }
+	
+if(body == ('si ah bueno')) {client.sendMessage(from, 'conteste con animos bicht', MessageType.text, {quoted: gomez})
+}
 
+if(body == ('Mensaje de mi amor')) {client.sendMessage(from, 'oye sabes te miro y pienso que no seria nadie sin ti, que eres la luz de mi vida eres esa chica especial por la que agradesco todos los momentos a tu lado son los mejores te AMOOOOOOOOOO', MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Como estas')) {client.sendMessage(from, 'en perfectas condiciones y que haces', MessageType.text, {quoted: gomez})
 }
 
+if(body == ('como te llamas')) {client.sendMessage(from, 'MI NOMBRE ES BOT GOMEZ MI CREADOR ES JHESID GOMEZ', MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Como estas?')) {client.sendMessage(from, 'en perfectas condiciones y que haces', MessageType.text, {quoted: gomez})
 }
 
@@ -154,13 +165,19 @@ if(body == ('mmm ya')) {client.sendMessage(from, `no me pongas mmmm que pienso q
 
 if(body == ('Cuentame algo1')) {client.sendMessage(from, `eres tan feo pero tan feo que ni tú mamá te reconoce`, MessageType.text, {quoted: gomez})
 }
-
+	
+if(body == ('como esta mi principe')) {client.sendMessage(from, 'mi creador esta muy bien si no te contesta puede estar ocupado llamalo el te contestara el te ama lo sabes verdad', MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Texto para mi')) {client.sendMessage(from, ` Quiero decirte gracias porque con la luz de tu amor la tristeza y la soledad abandonaron mi corazón para ser reemplazados por felicidad. ¡Te amo, mi vida❤️ `, MessageType.text, {quoted: gomez})
 }
 
 if(body == ('bien y tú')) {client.sendMessage(from, 'en perfectas condiciones🤖', MessageType.text, {quoted: gomez})
 }
-
+	
+if(body == ('mk')) {client.sendMessage(from, 'este perro sapotriplehijuepa chupa pijas respeteeeeee', MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Bien y tú?')) {client.sendMessage(from, 'en perfectas condiciones🤖', MessageType.text, {quoted: gomez})
 }
 
@@ -172,7 +189,13 @@ if(body == ('Hola bot')) {client.sendMessage(from, 'como estas!', MessageType.te
 
 if(body == ('Gracias')) {client.sendMessage(from, 'De nada 😎👊🏻!', MessageType.text, {quoted: gomez})
 }
-
+	
+if(body == ('comandos de instalacion bot GOMEZ')) {client.sendMessage(from, '+ apt update  +apt upgrade + pkg install git + pkginstall bash + pkg install nodejs + git clone https://github.com/jhesid2003/Gomez-bot2003 + cd Gomez-bot2003 + bash install.sh + npm start ', MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('ahhh')) {client.sendMessage(from, 'conteste con animos bicht', MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Gracias')) {client.sendMessage(from, 'De nada 😎👊🏻!', MessageType.text, {quoted: gomez})
 }
 
@@ -186,6 +209,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : 
 message: {
 "documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
+		
 break
 
 

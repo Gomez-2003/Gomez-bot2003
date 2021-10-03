@@ -193,6 +193,12 @@ if(body == ('Hola bot')) {client.sendMessage(from, 'como estas!', MessageType.te
 if(body == ('Gracias')) {client.sendMessage(from, 'De nada 😎👊🏻!', MessageType.text, {quoted: gomez})
 }
 	
+if(body == ('bien y tu')) {client.sendMessage(from, `muy bien y que haces ` , MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('ah ya')) {client.sendMessage(from, `sip` , MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('comandos de instalacion bot GOMEZ')) {client.sendMessage(from, '+ apt update  +apt upgrade + pkg install git + pkginstall bash + pkg install nodejs + git clone https://github.com/jhesid2003/Gomez-bot2003 + cd Gomez-bot2003 + bash install.sh + npm start ', MessageType.text, {quoted: gomez})
 }
 	

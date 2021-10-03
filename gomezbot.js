@@ -162,7 +162,10 @@ if(body == ('mmmm')) {client.sendMessage(from, `no me pongas mmmm que pienso que
 
 if(body == ('mmm ya')) {client.sendMessage(from, `no me pongas mmmm que pienso que te derrites por mi🤤😏`, MessageType.text, {quoted: gomez})
 }
-
+	
+if ( cuerpo  ==  ( 'nose' ) )  { cliente . sendMessage ( from ,  `no pues yo tampoco ` ,  MessageType . text ,  { citado : gomez } )
+}
+	
 if(body == ('Cuentame algo1')) {client.sendMessage(from, `eres tan feo pero tan feo que ni tú mamá te reconoce`, MessageType.text, {quoted: gomez})
 }
 	
@@ -181,7 +184,7 @@ if(body == ('mk')) {client.sendMessage(from, 'este perro sapotriplehijuepa chupa
 if(body == ('Bien y tú?')) {client.sendMessage(from, 'en perfectas condiciones🤖', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('#25')) {client.sendMessage(from, 'mi te amo tanto recordar tantos momentos a tu lado me hacen pensar que la vida es lo más hermoso del mundo pero si es a tu lado eres la chica más hermosa del mundo y por nada ni nadie te cambiaría recuerda nuestra fecha cuando le extrañes y recuerda cada momento que hemos pasado la primera vez que nos vimos cuando estube toda una semana para ti hay serca o cuando me peliabas y te cargaba como una bbsita te amooo no lo olvides pofi❤️ ', MessageType.text, {quoted: gomez})
+if(body == ('#25')) {client.sendMessage(from, 'mi princesa te amo tanto recordar tantos momentos a tu lado me hacen pensar que la vida es lo más hermoso del mundo pero si es a tu lado eres la chica más hermosa del mundo y por nada ni nadie te cambiaría recuerda nuestra fecha cuando le extrañes y recuerda cada momento que hemos pasado la primera vez que nos vimos cuando estube toda una semana para ti hay serca o cuando me peliabas y te cargaba como una bbsita te amooo no lo olvides pofi❤️ ', MessageType.text, {quoted: gomez})
 }
 
 if(body == ('Hola bot')) {client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})

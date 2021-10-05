@@ -117,8 +117,14 @@ if(body == ('Como estas?')) {client.sendMessage(from, 'en perfectas condiciones 
 }
 
 if(body == ('Mal')) {client.sendMessage(from, 'que paso?!', MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('Hola')) {
+client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('Yo no se ')) {client.sendMessage(from, 'yo�menos jaaaaa', MessageType.text, {quoted: gomez})
 }	
-
 if(body == ('Problemas')) {client.sendMessage(from, 'valla lo lamento mucho😔', MessageType.text, {quoted: gomez})
 }
 

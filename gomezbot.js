@@ -21,7 +21,7 @@ async function iniciar () {
 
 
         client.on('open', () => {
-        console.log('Listo se contecto correctamente comienza a usar el bot')
+        console.log('bienvenido comienza ah usar bot gomez2003')
         })
         await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./GomezBot.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -92,7 +92,7 @@ if(body == ('info')) {client.sendMessage(from, `┏━━❉ INFO ❉━━
 ┣👾 Numero : +57 3135621474
 ┣👾 CEL CREADOR: +57 3228267985
 ┣👾 NOMBRE DE CREADOR
-JHESID GOMEZ 
+┣👾 JHESID GOMEZ 
 ┣👾 Edad 2003
 ┗━━━━━━━━━━━━`, MessageType.text, {quoted: gomez})
 }
@@ -169,7 +169,7 @@ if(body == ('mmmm')) {client.sendMessage(from, `no me pongas mmmm que pienso que
 if(body == ('mmm ya')) {client.sendMessage(from, `no me pongas mmmm que pienso que te derrites por mi🤤😏`, MessageType.text, {quoted: gomez})
 }
 	
-if ( cuerpo  ==  ( 'nose' ) )  { cliente . sendMessage ( from ,  `no pues yo tampoco ` ,  MessageType . text ,  { citado : gomez } )
+if (body ==  ( 'nose' ) )  { cliente . sendMessage ( from ,  `no pues yo tampoco ` ,  MessageType . text ,  { citado : gomez } )
 }
 	
 if(body == ('Cuentame algo1')) {client.sendMessage(from, `eres tan feo pero tan feo que ni tú mamá te reconoce`, MessageType.text, {quoted: gomez})

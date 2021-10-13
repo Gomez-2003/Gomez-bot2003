@@ -127,7 +127,19 @@ if(body == ('Yo no se ')) {client.sendMessage(from, 'yo�menos jaaaaa', Message
 }	
 if(body == ('Problemas')) {client.sendMessage(from, 'valla lo lamento mucho😔', MessageType.text, {quoted: gomez})
 }
-
+	
+if(body == ('Hola bb')) {client.sendMessage(from, `HOLA MI AMOR`, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('GOOGLE XXX')) {client.sendMessage(from, `LA PORNOGRAFIA ES MALA metete el dedo`, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('podemos ser novios')) {client.sendMessage(from, `mi codigo aun no esta en capaidad de realisar esa opcion`, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('cuantos años tienes')) {client.sendMessage(from, `ajajajjajaj soy un bot no una parla`, MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Nada y tu')) {client.sendMessage(from, `esperar que me pidas trabajos o comandos de descarga`, MessageType.text, {quoted: gomez})
 }
 

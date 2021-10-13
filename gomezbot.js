@@ -184,6 +184,18 @@ if(body == ('mmm ya')) {client.sendMessage(from, `no me pongas mmmm que pienso q
 if (body ==  ( 'nose' ) )  { cliente . sendMessage ( from ,  `no pues yo tampoco ` ,  MessageType . text ,  { citado : gomez } )
 }
 	
+if(body == ('dame una idea')) {client.sendMessage(from, `la verdad busca la mejor opcion eso seria lo primordial `, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('que bien me alegra')) {client.sendMessage(from, `muchas gracias`, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('.')) {client.sendMessage(from, `que perza cuando mandan un pinche punto abrite de aca`, MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('nada y tu')) {client.sendMessage(from, `tengo una pereza y no deberia tener jajajaja`, MessageType.text, {quoted: gomez})
+}
+	
 if(body == ('Cuentame algo1')) {client.sendMessage(from, `eres tan feo pero tan feo que ni tú mamá te reconoce`, MessageType.text, {quoted: gomez})
 }
 	
@@ -194,6 +206,9 @@ if(body == ('Texto para mi')) {client.sendMessage(from, ` Quiero decirte gracias
 }
 
 if(body == ('bien y tú')) {client.sendMessage(from, 'en perfectas condiciones🤖', MessageType.text, {quoted: gomez})
+}
+	
+if(body == ('bobo')) {client.sendMessage(from, `jajajja bobo pa que si le hago decir que no`, MessageType.text, {quoted: gomez})
 }
 	
 if(body == ('mk')) {client.sendMessage(from, 'este perro sapotriplehijuepa chupa pijas respeteeeeee', MessageType.text, {quoted: gomez})

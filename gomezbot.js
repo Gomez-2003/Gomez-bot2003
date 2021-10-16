@@ -288,7 +288,7 @@ message: {
 break
 
 case 'fotoderecuerdo':
-const imagen = fs.readFileSync('./media/ubicación.jpg')
+const imagen = fs.readFileSync('./media/recuerdo.jpg')
 client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`*Te amó mi princesa*❤️`})
 break
 

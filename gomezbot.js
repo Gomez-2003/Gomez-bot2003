@@ -279,13 +279,14 @@ break
 
 case '25/09/2020':
 client.sendMessage(from, ` COMANDOS DEL BOT
-🫂 MENSAJES PARA MÍ AMOR🫂 
-➫ Mensaje de mi amor 
-➫ Texto para mi
-➫ #25
-➫ Te amo #25
-➫ video I remenber
-➫ fotoderecuerdo
+💖*MENSAJES PARA MÍ AMOR*💖
+➫ *Mensaje de mi amor* 
+➫ *Texto para mi*
+➫ *como esta mi principe
+➫ *#25*
+➫ *Te amo #25*
+➫ *video I remenber*
+➫ *fotoderecuerdo*
 ➫ *Estos comandos son unica mente para 3008262479*
 _me llegara una Aler si en hacen uso de ellos_
 fromMe: false,

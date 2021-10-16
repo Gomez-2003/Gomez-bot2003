@@ -357,34 +357,28 @@ const noreg = {
 
 		fromMe: false,
 
-		participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+		
 
-		},
+		
 
-		message: {
+		
 
-		"productMessage": {
+		
 
-		"product": {
 
-		"title": '🗒️𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐧𝐨 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨!',
 
-		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚",
+	
 
-		"currencyCode": "SYP",
+		
 
-		"priceAmount1000": "999999999999999999",
+		
 
-		"retailerId": "Gomezbot",
+		
 
-		"productImageCount": 1
+		
 
-		},
+		
 
-		"businessOwnerJid": `0@s.whatsapp.net`
+}
 
-		}
 
-		}
-
-		}

@@ -294,7 +294,7 @@ client.sendMessage(from, imagen, MessageType.image, {quoted: gomez, caption: `*F
 break
                 
 case 'video':
-const video = fs.readFileSync('./media/video.mp4')
+const video = fs.readFileSync('./media/I remember.mp4')
 client.sendMessage(from, video, MessageType.video, {quoted: gomez, mimetype: 'video/mp4', caption: 'JAJAJA', duration: 999999999})
 break
                 

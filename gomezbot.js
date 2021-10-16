@@ -104,7 +104,11 @@ client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})
 if(body ==('Te amo #25')) {
 client.sendMessage(from, '*te amo tanto mi amor como no lo imaginas!*💘',MessageType.text,{quoted: gomez})
 }
-	
+
+if(body ==('video I remenber')) {
+client.sendMessage(from, '*cuando dije cara de serios jajaja ame ese dia*🙈',MessageType.text,{quoted:gomez})
+}
+		 
 if(body ==('fotoderecuerdo')){client.sendMessage(from, 'esa semana todos los dias fueron magicos',MessageType.text, {quoted: gomez})
 }			      
 	

@@ -320,13 +320,13 @@ break
 
 case 'fotoderecuerdo':
 const imagen = fs.readFileSync('./media/recuerdo.jpg')
-client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`*Te amó mi princesa*❤️`})
+client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`Te amó mi princesa❤️`})
 break
 
 
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
-client.sendMessage(from, imagen, MessageType.image, {quoted: gomez, caption: `*Foto enviada con exito :D*`})
+client.sendMessage(from, imagen, MessageType.image, {quoted: gomez, caption: `Foto enviada con exito`})
 break
                 
 case 'video I remenber':
@@ -339,14 +339,24 @@ const audio = fs.readFileSync('./media/audio MP3 princesa.m4a')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
 break
-                
-}
+      
+}    
 
 } catch (e) {
+
+console.log(e)}
+
+)}
+
         
-console
+
+
+
+
         
-})      
+
+        
+
 
 
 

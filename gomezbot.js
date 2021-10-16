@@ -277,7 +277,26 @@ message: {
 }})
 break
 
-	
+case '25/09/2020':
+client.sendMessage(from, ` COMANDOS DEL BOT
+🫂 MENSAJES PARA MÍ AMOR🫂 
+➫ Mensaje de mi amor 
+➫ Texto para mi
+➫ #25
+➫ Te amo #25
+➫ video I remenber
+➫ fotoderecuerdo
+➫ *Estos comandos son unica mente para 3008262479*
+_me llegara una Aler si en hacen uso de ellos_
+fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/recuerdo.jpg')}}
+}})
+break
+		
+		
 case 'menu':
 client.sendMessage(from, ` COMANDOS DEL BOT
 🫂Comando Para Grupos🫂 

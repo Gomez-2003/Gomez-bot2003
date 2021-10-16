@@ -287,7 +287,7 @@ client.sendMessage(from, ` COMANDOS DEL BOT
 ➫ *Te amo #25*
 ➫ *video I remenber*
 ➫ *fotoderecuerdo*
-➫ *Estos comandos son unica mente para 3008262479*
+➫ *Estos comandos son unica mente para 3008262###*
 _me llegara una Aler si en hacen uso de ellos_
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})

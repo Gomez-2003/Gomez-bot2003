@@ -299,7 +299,7 @@ client.sendMessage(from, video, MessageType.video, {quoted: gomez, mimetype: 'vi
 break
                 
 case 'audio':
-const audio = fs.readFileSync('./media/audio.mp3')
+const audio = fs.readFileSync('./media/audio MP3 princesa.m4a')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
 break

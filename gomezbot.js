@@ -16,7 +16,7 @@ async function iniciar () {
 
 
         client.on('connecting', () => {
-        console.log('Conectando
+        console.log('Conectando'
         })
 
 
@@ -102,7 +102,12 @@ client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})
 }
 
 if(body ==('Te amo #25')) {
-client.sendMessage(from, '*te amo tanto mi amor como no lo imaginas!💘',MessageType.text,{quoted: Gomez
+client.sendMessage(from, '*te amo tanto mi amor como no lo imaginas!*💘',MessageType.text,{quoted: gomez})
+}
+	
+if(body ==('fotoderecuerdo')){client.sendMessage(from, 'esa semana todos los dias fueron magicos',MessageType.text, {quoted: gomez})
+}			      
+	
 if(body == ('si ah bueno')) {client.sendMessage(from, 'conteste con animos bicht', MessageType.text, {quoted: gomez})
 }
 

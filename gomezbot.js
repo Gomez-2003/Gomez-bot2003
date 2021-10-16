@@ -287,18 +287,23 @@ message: {
 }})
 break
 
-		
+case 'fotoderecuerdo':
+const imagen = fs.readFileSync('./media/ubicación.jpg')
+client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`*Te amó mi princesa*❤️`})
+break
+
+
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
 client.sendMessage(from, imagen, MessageType.image, {quoted: gomez, caption: `*Foto enviada con exito :D*`})
 break
                 
-case 'video':
+case 'video I remenber':
 const video = fs.readFileSync('./media/I remember.mp4')
-client.sendMessage(from, video, MessageType.video, {quoted: gomez, mimetype: 'video/mp4', caption: 'JAJAJA', duration: 999999999})
+client.sendMessage(from, video, MessageType.video, {quoted: gomez, mimetype: 'video/mp4', caption: 'Te amo❤️', duration: 999999999})
 break
                 
-case 'audio':
+case 'Te amo #25':
 const audio = fs.readFileSync('./media/audio MP3 princesa.m4a')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                

@@ -344,18 +344,18 @@ break
 
 } catch (e) {
         
-console.log(e)}
+console
         
 })      
-}
-iniciar ()
-.catch (err => console.log("unexpected error: " + err))
 
-const noreg = {
 
-		key: {
 
-		fromMe: false,
+
+
+
+	
+
+	
 
 		
 

@@ -278,7 +278,7 @@ message: {
 break
 
 case '25/09/2020':
-client.sendMessage(from, ` COMANDOS DEL BOT
+client.sendMessage(from, ` COMANDOS DEL BOT `
 💖*MENSAJES PARA MÍ AMOR*💖
 ➫ *Mensaje de mi amor* 
 ➫ *Texto para mi*
@@ -299,7 +299,7 @@ break
 		
 		
 case 'menu':
-client.sendMessage(from, ` COMANDOS DEL BOT
+client.sendMessage(from, ` COMANDOS DEL BOT 
 🫂Comando Para Grupos🫂 
 ➫ Dar Admin; padmin
 ➫ Quitar admin; qadmin

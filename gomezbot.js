@@ -139,25 +139,25 @@ if(body == ('Yo no se ')) {client.sendMessage(from, 'yo�menos jaaaaa', Message
 if(body == ('Problemas')) {client.sendMessage(from, 'valla lo lamento mucho😔', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('Hola bb')) {client.sendMessage(from, `HOLA MI AMOR`, MessageType.text, {quoted: gomez})
+if(body == ('Hola bb')) {client.sendMessage(from, 'HOLA MI AMOR', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('GOOGLE XXX')) {client.sendMessage(from, `LA PORNOGRAFIA ES MALA metete el dedo`, MessageType.text, {quoted: gomez})
+if(body == ('GOOGLE XXX')) {client.sendMessage(from, 'LA PORNOGRAFIA ES MALA metete el dedo', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('podemos ser novios')) {client.sendMessage(from, `mi codigo aun no esta en capaidad de realisar esa opcion`, MessageType.text, {quoted: gomez})
+if(body == ('podemos ser novios')) {client.sendMessage(from, 'mi codigo aun no esta en capaidad de realisar esa opcion', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('cuantos años tienes')) {client.sendMessage(from, `ajajajjajaj soy un bot no una parla`, MessageType.text, {quoted: gomez})
+if(body == ('cuantos años tienes')) {client.sendMessage(from, 'ajajajjajaj soy un bot no una parla', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('Nada y tu')) {client.sendMessage(from, `esperar que me pidas trabajos o comandos de descarga`, MessageType.text, {quoted: gomez})
+if(body == ('Nada y tu')) {client.sendMessage(from, 'esperar que me pidas trabajos o comandos de descarga`, MessageType.text, {quoted: gomez})
 }
 
 if(body == ('Hola')) {client.sendMessage(from, 'como estas!', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('Tareas y tu')) {client.sendMessage(from, `esperar que me pidas trabajos o comandos de. Descarga` , MessageType.text, {quoted: gomez})
+if(body == ('Tareas y tu')) {client.sendMessage(from, 'esperar que me pidas trabajos o comandos de. Descarga' , MessageType.text, {quoted: gomez})
 }
 
 if(body == ('Aburrida')) {client.sendMessage(from, 'oh que mal!', MessageType.text, {quoted: gomez})
@@ -166,13 +166,13 @@ if(body == ('Aburrida')) {client.sendMessage(from, 'oh que mal!', MessageType.te
 if(body == ('Aburrido')) {client.sendMessage(from, 'oh que mal!', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('Aburrida')) {client.sendMessage(from, `te cuento un chiste pon 2003`, MessageType.text, {quoted: gomez})
+if(body == ('Aburrida')) {client.sendMessage(from, 'te cuento un chiste pon 2003', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('2003')) {client.sendMessage(from, `Era un hombre tan vago, que cuando se murió sus amigos pusieron la siguiente inscripción en su tumba: “Aquí continúa descansando`, MessageType.text, {quoted: gomez})
+if(body == ('2003')) {client.sendMessage(from, 'Era un hombre tan vago, que cuando se murió sus amigos pusieron la siguiente inscripción en su tumba: “Aquí continúa descansando', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('2003 A')) {client.sendMessage(from, `Yo tengo cinco hijos. – ¿Cómo se llaman? – Uno Cipriano, otro Luciano, otro Aniano, otro Mariano….- Oye, ¿y todos acaban en ano? – No, el quinto es Próculo.`, MessageType.text, {quoted: gomez})
+if(body == ('2003 A')) {client.sendMessage(from, 'Yo tengo cinco hijos. – ¿Cómo se llaman? – Uno Cipriano, otro Luciano, otro Aniano, otro Mariano….- Oye, ¿y todos acaban en ano? – No, el quinto es Próculo.' , MessageType.text, {quoted: gomez})
 }
 
 if(body == ('Eres el mejor bot')) {client.sendMessage(from, 'gracias bbsauri@', MessageType.text, {quoted: gomez})
@@ -186,40 +186,40 @@ if(body == ('Tu crees en el amor')) {client.sendMessage(from, `██╗░░�
 ╚═╝░░╚═╝╚═════╝░ te pasas weee🤖`, MessageType.text, {quoted: gomez})
 }
 
-if(body == ('mmmm')) {client.sendMessage(from, `no me pongas mmmm que pienso que te derrites por mi🤤😏`, MessageType.text, {quoted: gomez})
+if(body == ('mmmm')) {client.sendMessage(from, 'no me pongas mmmm que pienso que te derrites por mi🤤😏', MessageType.text, {quoted: gomez})
 }
 
-if(body == ('mmm ya')) {client.sendMessage(from, `no me pongas mmmm que pienso que te derrites por mi🤤😏`, MessageType.text, {quoted: gomez})
+if(body == ('mmm ya')) {client.sendMessage(from, 'no me pongas mmmm que pienso que te derrites por mi🤤😏', MessageType.text, {quoted: gomez})
 }
 	
-if (body ==  ( 'nose' ) )  { cliente . sendMessage ( from ,  `no pues yo tampoco ` ,  MessageType . text ,  { citado : gomez } )
+if (body ==  ( 'nose' ) )  { cliente . sendMessage ( from , 'no pues yo tampoco ' ,  MessageType . text ,  { citado : gomez } )
 }
 	
-if(body == ('dame una idea')) {client.sendMessage(from, `la verdad busca la mejor opcion eso seria lo primordial `, MessageType.text, {quoted: gomez})
+if(body == ('dame una idea')) {client.sendMessage(from, 'la verdad busca la mejor opcion eso seria lo primordial ', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('que bien me alegra')) {client.sendMessage(from, `muchas gracias`, MessageType.text, {quoted: gomez})
+if(body == ('que bien me alegra')) {client.sendMessage(from, 'muchas gracias', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('.')) {client.sendMessage(from, `que perza cuando mandan un pinche punto abrite de aca`, MessageType.text, {quoted: gomez})
+if(body == ('.')) {client.sendMessage(from, 'que perza cuando mandan un pinche punto abrite de aca', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('nada y tu')) {client.sendMessage(from, `tengo una pereza y no deberia tener jajajaja`, MessageType.text, {quoted: gomez})
+if(body == ('nada y tu')) {client.sendMessage(from, 'tengo una pereza y no deberia tener jajajaja', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('Cuentame algo1')) {client.sendMessage(from, `eres tan feo pero tan feo que ni tú mamá te reconoce`, MessageType.text, {quoted: gomez})
+if(body == ('Cuentame algo1')) {client.sendMessage(from, 'eres tan feo pero tan feo que ni tú mamá te reconoce', MessageType.text, {quoted: gomez})
 }
 	
 if(body == ('como esta mi principe')) {client.sendMessage(from, 'mi creador esta muy bien si no te contesta puede estar ocupado llamalo el te contestara el te ama lo sabes verdad', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('Texto para mi')) {client.sendMessage(from, ` Quiero decirte gracias porque con la luz de tu amor la tristeza y la soledad abandonaron mi corazón para ser reemplazados por felicidad. ¡Te amo, mi vida❤️ `, MessageType.text, {quoted: gomez})
+if(body == ('Texto para mi')) {client.sendMessage(from, ' Quiero decirte gracias porque con la luz de tu amor la tristeza y la soledad abandonaron mi corazón para ser reemplazados por felicidad. ¡Te amo, mi vida❤️ ', MessageType.text, {quoted: gomez})
 }
 
 if(body == ('bien y tú')) {client.sendMessage(from, 'en perfectas condiciones🤖', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('bobo')) {client.sendMessage(from, `jajajja bobo pa que si le hago decir que no`, MessageType.text, {quoted: gomez})
+if(body == ('bobo')) {client.sendMessage(from, 'jajajja bobo pa que si le hago decir que no', MessageType.text, {quoted: gomez})
 }
 	
 if(body == ('mk')) {client.sendMessage(from, 'este perro sapotriplehijuepa chupa pijas respeteeeeee', MessageType.text, {quoted: gomez})
@@ -278,7 +278,7 @@ message: {
 break
 
 case '25/09/2020':
-client.sendMessage(from, ` COMANDOS DEL BOT `
+client.sendMessage(from, ` COMANDOS DEL BOT 
 💖*MENSAJES PARA MÍ AMOR*💖
 ➫ *Mensaje de mi amor* 
 ➫ *Texto para mi*
@@ -288,7 +288,7 @@ client.sendMessage(from, ` COMANDOS DEL BOT `
 ➫ *video I remenber*
 ➫ *fotoderecuerdo*
 ➫ *Estos comandos son unica mente para 3008262###*
-_me llegara una Aler si en hacen uso de ellos_
+_me llegara una Aler si en hacen uso de ellos_`
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },

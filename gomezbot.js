@@ -3,7 +3,7 @@ const fs = require('fs');
 const prefix = '.'
 
 async function iniciar () { 
-        const client = new WAConnection()
+        const Gomezbot = new WAConnection()
 
         client.logger.level = 'warn'
 

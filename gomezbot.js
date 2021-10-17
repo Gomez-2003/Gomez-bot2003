@@ -329,13 +329,13 @@ const imagen = fs.readFileSync('./media/foto.jpg')
 client.sendMessage(from, imagen, MessageType.image, {quoted: gomez, caption: `Foto enviada con exito`})
 break
                 
-case 'video I remenber':
+case 'video':
 const video = fs.readFileSync('./media/I remember.mp4')
 client.sendMessage(from, video, MessageType.video, {quoted: gomez, mimetype: 'video/mp4', caption: 'Te amo❤️', duration: 999999999})
 break
                 
-case 'Te amo #25':
-const audio = fs.readFileSync('./media/audio MP3 princesa.m4a')
+case 'Teamo#25':
+const audio = fs.readFileSync('./media/audio1.mp4.m4a')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
 break
@@ -382,13 +382,4 @@ console.log(e)}
 		
 
 		
-
-		
-
-		
-
-		
-
-}
-
 

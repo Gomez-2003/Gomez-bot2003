@@ -142,7 +142,7 @@ if(body == ('Problemas')) {client.sendMessage(from, 'valla lo lamento mucho😔'
 if(body == ('Hola bb')) {client.sendMessage(from, 'HOLA MI AMOR', MessageType.text, {quoted: gomez})
 }
 	
-if(body == ('GOOGLE XXX')) {client.sendMessage(from, 'LA PORNOGRAFIA ES MALA metete el dedo', MessageType.text, {quoted: gomez})
+if(body == ('XXX')) {client.sendMessage(from, 'LA PORNOGRAFIA ES MALA metete el dedo', MessageType.text, {quoted: gomez})
 }
 	
 if(body == ('podemos ser novios')) {client.sendMessage(from, 'mi codigo aun no esta en capaidad de realisar esa opcion', MessageType.text, {quoted: gomez})

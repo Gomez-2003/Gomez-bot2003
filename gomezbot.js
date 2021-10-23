@@ -241,10 +241,7 @@ if(body == ('bien y tu')) {client.sendMessage(from, 'muy bien y que haces ', Mes
 	
 if(body == ('ah ya')) {client.sendMessage(from, 'sip' , MessageType.text, {quoted: gomez})
 }
-	
-if(body == ('comandos de instalacion bot GOMEZ')) {client.sendMessage(from, '+ apt update  +apt upgrade + pkg install git + pkginstall bash + pkg install nodejs + git clone https://github.com/jhesid2003/Gomez-bot2003 + cd Gomez-bot2003 + bash install.sh + npm start ', MessageType.text, {quoted: gomez})
-}
-	
+
 if(body == ('ahhh')) {client.sendMessage(from, 'conteste con animos bicht', MessageType.text, {quoted: gomez})
 }
 	

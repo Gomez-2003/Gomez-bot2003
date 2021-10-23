@@ -2,27 +2,7 @@ const { WAConnection, MessageType, Mimetype, } = require('@adiwajshing/baileys')
 const fs = require('fs');
 const prefix = '.'
 
-async function iniciar () { 
-        const client = new WAConnection()
 
-        client.logger.level = 'warn'
-
-
-        client.on('qr', () => {
-        })
-
-
-        fs.existsSync('./GomezBot.json') && client.loadAuthInfo('.GomezBot.json')
-
-
-        client.on('connecting', () => {
-        console.log('Conectando'
-        })
-
-
-        client.on('open', () => {
-        console.log('bienvenido comienza ah usar bot gomez2003')
-        })
         await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./GomezBot.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         

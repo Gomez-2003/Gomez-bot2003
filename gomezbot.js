@@ -367,7 +367,7 @@ client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'au
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
 break
 
-case 'Te amo #25':
+case 'bebesita':
 const audio = fs.readFileSync('./media/audio dos para mi princesa.ogg')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                

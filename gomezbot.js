@@ -306,10 +306,13 @@ client.sendMessage(from, ` COMANDOS DEL BOT
 💖*MENSAJES PARA MÍ AMOR*💖
 ➫ *Mensaje de mi amor* 
 ➫ *Texto para mi*
-➫ *como esta mi principe
+➫ *como esta mi principe*
 ➫ *#25*
 ➫ *Te amo #25*
+➫ *
 ➫ *video I remenber*
+➫ *fotomylove2*
+➫ *fotomylove3*
 ➫ *fotoderecuerdo*
 ➫ *Estos comandos son unica mente para 3008262###*
 _me llegara una Aler si en hacen uso de ellos_`
@@ -317,7 +320,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/recuerdo.jpg')}}
+"documen➫ tMessage": { "title": "BOTG-OMEZ2003👾", 'jpegThumbnail': fs.readFileSync('./media/recuerdo.jpg')}}
 }})
 break
 		
@@ -363,7 +366,24 @@ const audio = fs.readFileSync('./media/audio1.mp4.m4a')
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
 client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
 break
-      
+
+case 'Te amo #25':
+const audio = fs.readFileSync('./media/audio dos para mi princesa.ogg')
+client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
+client.sendMessage(from, audio, MessageType.audio, {quoted: gomez, mimetype: 'audio/mp3', duration: -9999999})                
+break
+
+case 'fotomylove2':
+const imagen = fs.readFileSync('./media/foto 2.jpeg')
+client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`Te amó mi princesa❤️`})
+break
+
+case 'fotomylove3':
+const imagen = fs.readFileSync('./media/foto 3.jpeg')
+client.sendMenssage(from, imagen, MessageType.image, {quoted: gomez, caption:`Te amó mi princesa❤️`})
+break
+
+
 }    
 
 } catch (e) {

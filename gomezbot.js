@@ -1,5 +1,5 @@
 const { WAConnection, MessageType, Mimetype, } = require('@adiwajshing/baileys');
-const fs = require('js');
+const fs = require('fs');
 const prefix = '.'
 const client = require("Gomezbot");
 const moment = require("moment-timezone");

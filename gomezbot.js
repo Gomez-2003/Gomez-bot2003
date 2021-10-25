@@ -1,9 +1,9 @@
 const { WAConnection, MessageType, Mimetype, } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const prefix = '.'
-const CryptoJS = require("crypto-js");
+const client = require("crypto-js");
 const moment = require("moment-timezone");
-const CryptoJS = require("crypto-js");
+const client = require("crypto-js");
 
 //========= Funcion de Registro =========\\
 

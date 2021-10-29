@@ -2,7 +2,7 @@ const { WAConnection, MessageType, Mimetype, } = require('@adiwajshing/baileys')
 const fs = require('fs');
 const prefix = '.'
 const client = require("Gomezbot");
-const iniciar = require("npm start");
+const critoJs= require("crytonJS");
 const client = require("Gomezbot");
 
 //========= Funcion de Registro =========\\
